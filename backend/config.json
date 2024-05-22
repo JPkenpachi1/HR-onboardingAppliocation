@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+      "DefaultConnection": "mongodb+srv://kenpachi:1234@cluster0.bzqvhzl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    }
+}
