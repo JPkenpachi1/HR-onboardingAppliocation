@@ -1,4 +1,11 @@
 // server.js
+
+
+require('dotenv').config();
+const config = require("./config.json");
+const mongoose   = require('mongoose')
+
+mongoose.connect(config.ConnectionStrings.DefaultConnection)
 const express = require('express');
 const app = express();
 const PORT = 8000;
